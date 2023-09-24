@@ -13,6 +13,8 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 3rem;
 }
 
 main {
@@ -26,15 +28,24 @@ main {
   width: 100%;
   height: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 1rem;
   background-color: #000;
   opacity: 1;
   margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .title {
-  font-size: 48px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: #CFB53B;
+}
+
+.subtitle {
+  font-size: 20px;
   font-weight: 700;
   color: #CFB53B;
 }
@@ -62,7 +73,7 @@ img {
   max-width: 1400px;
   height: auto;
   display: flex;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   justify-content: center;
   align-items: center;
   background: url("./img/bcg.jpg") center no-repeat;
@@ -103,10 +114,18 @@ img {
 
 li {
   color: #fff;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-align: left;
+}
+
+.wiki {
+  color: #CFB53B;
+  font-size: 12px;
+}
+
+.wiki:hover {
+  color: #fff;
 }
 
 @media (max-width: 1300px) {
